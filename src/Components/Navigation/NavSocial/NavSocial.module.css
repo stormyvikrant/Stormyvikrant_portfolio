@@ -1,0 +1,23 @@
+.navSocial {
+    display: inline-block;
+    margin-left: 2rem;
+    text-align: right;
+}
+
+.socialIcons {
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+    margin: auto;
+}
+
+.mobileSocialIcons {
+    color: #fff;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.footerSocialIcons {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: var(--secondary-color);
+}

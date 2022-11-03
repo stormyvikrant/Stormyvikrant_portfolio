@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 234, 241);
+    padding: 1rem;
+  
+}
+
+
+.dark {
+    background-color: var(--dark-card-bg);
+    color: var(--dark-text);
+    
+}
+
+

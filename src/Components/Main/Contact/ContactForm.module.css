@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  
+}
+.iconContainer {
+    display: flex;
+   
+}
+
+.dark {
+    background-color: var(--dark-card-bg);
+    color: var(--dark-text);
+    
+}
+
+.copyright {
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+}

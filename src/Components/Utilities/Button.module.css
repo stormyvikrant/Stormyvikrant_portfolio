@@ -1,0 +1,29 @@
+.button {
+    display: block;
+    height: 3rem;
+    width: 10rem;
+    margin-top: 1.4rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -4px -4px 12px 0 rgba(255, 255, 255, 0.3);
+    transition: all ease 0.1s;
+}
+
+.button:hover {
+    box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.25),
+        -4px -4px 12px 0 rgba(255, 255, 255, 0.3);
+    transform: scale(0.98);
+    transition: all ease 0.1s;
+}
+
+.dark, .dark:hover {
+    box-shadow: none;
+}
